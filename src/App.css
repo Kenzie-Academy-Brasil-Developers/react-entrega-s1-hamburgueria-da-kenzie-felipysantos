@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  margin: 0 0 100px 0;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 140px;
+  background-color: #f4f4f4;
+}
+
+h2 {
+    color: #EB5757;
+    font-size: 18px;
+}
+h2 strong {
+    font-size: 22px;
+    font-weight: bolder;
+    color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-color: #fff;
+}
+
+form:focus-within {
+  border: 2px solid black;
+}
+
+
+@media (min-width: 768px) {
+  .App-header {
+    flex-direction: row;
+  }
+  main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  main section:nth-child(1) {
+    border: 2px solid white;
+    max-width: 600px;
+  }
+}

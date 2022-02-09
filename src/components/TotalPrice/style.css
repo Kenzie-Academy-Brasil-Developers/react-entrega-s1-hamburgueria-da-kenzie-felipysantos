@@ -1,0 +1,15 @@
+.totalPrice {
+  width: 80vw;
+  max-width: 280px;
+  padding: 20px 10px;
+  display: flex;
+  background-color: #27ae60;
+  justify-content: space-around;
+  font-size: 22px;
+  color: #fff;
+  border: 2px solid #27ae60;
+  border-radius: 0 0 20px 20px;
+}
+.totalPrice p {
+  font-weight: bold;
+}

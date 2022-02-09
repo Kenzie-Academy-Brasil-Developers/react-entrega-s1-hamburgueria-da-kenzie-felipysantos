@@ -1,10 +1,17 @@
 import Product from "../Product";
+import "./style.css";
 const ProductList = ({ children, onClick }) => {
   return (
-    <ul>
-      
+    <ul className="productList">
       {children.map((element) => (
-        <Product onClick={onClick} key={element.id} id={element.id} element={element}>Add to cart</Product>
+        <Product
+          onClick={onClick}
+          key={element.id}
+          id={element.id}
+          element={element}
+        >
+          Add to cart
+        </Product>
       ))}
     </ul>
   );

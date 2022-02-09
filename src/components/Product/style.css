@@ -1,0 +1,22 @@
+.productList li {
+    list-style: none;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    scroll-snap-align: start;
+    width: 300px;
+}
+.productList li p {
+    font-weight: bold;
+    font-size: 20px;
+}
+.productList li span {
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 16px;
+}
+.productList li img {
+    width: 150px;
+}

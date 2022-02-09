@@ -32,11 +32,10 @@ function App() {
     setFilteredProducts(filteredItem)
   }
 
-
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Logo</h2>
+        <h2><strong>Burguer</strong> kenzie</h2>
         <form onSubmit={showResults}>
           <Input placeholder="Input a product name" onChange={(e) => showResults(e)}/>
           <Button onClick={(e) => e.preventDefault()} type="submit" className="Search-button">search</Button>
