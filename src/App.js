@@ -28,7 +28,7 @@ function App() {
   };
 
   const showResults = (value) => {
-    const filteredItem = products.filter((element) =>element.name.toLowerCase() === value.target.value.toLowerCase())
+    const filteredItem = products.filter((element) =>element.name.toLowerCase().includes(value.target.value.toLowerCase()))
     setFilteredProducts(filteredItem)
   }
 
